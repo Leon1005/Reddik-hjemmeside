@@ -45,6 +45,14 @@
     color:white;
 
 }
+.enkel-nettside-div {
+    background-color:rgb(210, 210, 210);
+    width:300px;
+    padding:10px;
+    border-radius:8px;
+    margin-left:18px;
+    margin-bottom:20px;
+}
 </style>
 <div class="main">
     <p class="logo">Reddik<span>AS</span></p>
@@ -52,4 +60,38 @@
     <p class="pitch">En kort setning om hva vi gjør og hva som skiller oss fra andre.</p>
 
     <button class="kontakt-button">Kontakt oss</button>
+</div>
+
+<h2>Pakkepriser</h2>
+<div class="grid-div">
+    <div class="enkel-nettside-div">
+        <h4>Enkel nettside</h4>
+        <h2>15 000</h2>
+        <p>Beskrivelse om hva en enkel nettside er, og hvem det passer for</p>
+        <ul>
+            <li>Noen ting</li>
+            <li>Som er</li>
+            <li>inkludert i denne pakken</li>
+        </ul>
+    </div>
+    <div class="enkel-nettside-div">
+        <h4>Standard nettside</h4>
+        <h2>25 000</h2>
+        <p>Beskrivelse om hva en enkel nettside er, og hvem det passer for</p>
+        <ul>
+            <li>Noen ting</li>
+            <li>Som er</li>
+            <li>inkludert i denne pakken</li>
+        </ul>
+    </div>
+    <div class="enkel-nettside-div">
+        <h4>Avansert nettside</h4>
+        <h2>30 000+</h2>
+        <p>Beskrivelse om hva en enkel nettside er, og hvem det passer for</p>
+        <ul>
+            <li>Noen ting</li>
+            <li>Som er</li>
+            <li>inkludert i denne pakken</li>
+        </ul>
+    </div>
 </div>
