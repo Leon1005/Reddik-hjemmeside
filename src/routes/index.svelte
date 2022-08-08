@@ -53,6 +53,39 @@
     margin-left:18px;
     margin-bottom:20px;
 }
+.contact-div{
+    display:flex;
+    flex-direction:column;
+}
+.contact-div h4 {
+    margin-left:10px;
+}
+.navn-input {
+    background-color:rgb(210, 210, 210);
+    border:none;
+    padding:6px;
+    margin:6px;
+    border-radius:4px;
+}
+.melding-input {
+    background-color:rgb(210, 210, 210);
+    border:none;
+    padding:6px;
+    margin:6px;
+    height:60px;
+    border-radius:4px;
+}
+.send-button{
+    float:right;
+    padding:6px 12px;
+    border:none;
+    font-weight:500;
+    border-radius:4px;
+    transition:color 0.15s
+}
+.send-button:active{
+    color:white;
+}
 </style>
 <div class="main">
     <p class="logo">Reddik<span>AS</span></p>
@@ -77,7 +110,7 @@
     <div class="enkel-nettside-div">
         <h4>Standard nettside</h4>
         <h2>25 000</h2>
-        <p>Beskrivelse om hva en enkel nettside er, og hvem det passer for</p>
+        <p>Beskrivelse om hva en standard nettside er, og hvem det passer for</p>
         <ul>
             <li>Noen ting</li>
             <li>Som er</li>
@@ -87,7 +120,7 @@
     <div class="enkel-nettside-div">
         <h4>Avansert nettside</h4>
         <h2>30 000+</h2>
-        <p>Beskrivelse om hva en enkel nettside er, og hvem det passer for</p>
+        <p>Beskrivelse om hva en avansert nettside er, og hvem det passer for</p>
         <ul>
             <li>Noen ting</li>
             <li>Som er</li>
@@ -95,3 +128,11 @@
         </ul>
     </div>
 </div>
+
+<div class="contact-div">
+    <h4>Kontakt Oss</h4>
+    <input class="navn-input" type="text" placeholder="Navn">
+    <input class="navn-input" type="text" placeholder="Epost">
+    <input class="melding-input" type="text" placeholder="Melding">
+</div>
+<button class="send-button">Send</button>
